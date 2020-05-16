@@ -12,7 +12,7 @@ gem 'puma', '~> 4.1'
 # Use SCSS for stylesheets
 gem 'sass-rails', '>= 6'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
-gem 'webpacker', '~> 4.0'
+# gem 'webpacker', '~> 4.0'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
@@ -52,3 +52,19 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem 'haml-rails'
+gem "font-awesome-sass"
+gem 'devise'
+gem 'active_hash'
+gem 'fog-aws'
+gem 'carrierwave'
+gem 'mini_magick'
+gem 'ancestry'
+gem 'pry-rails'
+gem 'erb2haml'
+gem 'jquery-turbolinks'
+gem 'dynamic_form'
+gem 'dotenv-rails'
+gem 'payjp'
+gem 'jquery-rails'
+gem 'gretel'
