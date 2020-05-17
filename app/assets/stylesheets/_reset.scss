@@ -1,0 +1,49 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-size: inherit;
+  line-height: inherit;
+}
+* :after,
+* :before {
+  border-style: solid;
+  border-width: 0;
+  box-sizing: inherit;
+  text-decoration: inherit;
+  vertical-align: inherit;
+  box-sizing: inherit;
+}
+:root {
+  box-sizing: border-box;
+  cursor: default;
+  font: 16px/1.5 sans-serif;
+  text-rendering: optimizeLegibility;
+}
+a {
+  text-decoration: none;
+}
+body {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  text-rendering: auto;
+  font-size: 14px;
+  font-family: "Montserrat","游ゴシック",YuGothic,"ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","メイリオ",Meiryo,sans-serif;
+  color: #333;
+  background-color: #fff;
+}
+ul {
+  list-style-type: disc;
+}
+nav ol, nav ul {
+  list-style: none;
+}
+li {
+  text-align: -webkit-match-parent;
+}
+div {
+  display: block;
+}
