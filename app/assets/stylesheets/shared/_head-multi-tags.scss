@@ -1,3 +1,5 @@
+
+
 .l-header-inner,
 .l-header-inner.is-header-inner-open {
   position: relative;
@@ -44,4 +46,56 @@
 }
 .icon-arrow-circle:before {
   content: "";
+}
+.button-text,
+.heading-title {
+  font-weight: 700;
+}
+.submenu-item a,
+.submenu-list,
+.submenu-list-blog {
+  -webkit-transition: padding 0s ease .5s;
+  transition: padding 0s ease .5s;
+}
+.submenu-item a,
+.submenu-list-blog {
+  padding: 0 0 0 37px;
+}
+.mutter-text-content,
+.submenu-title {
+  line-height: 1.6;
+}
+a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
+}
+.__web-inspector-hide-shortcut__,
+.__web-inspector-hide-shortcut__ *,
+.__web-inspector-hidebefore-shortcut__::before,
+.__web-inspector-hideafter-shortcut__::after {
+  visibility: hidden !important;
+}
+[type=button],
+[type=date],
+[type=datetime-local],
+[type=datetime],
+[type=email],
+[type=month],
+[type=number],
+[type=password],
+[type=reset],
+[type=search],
+[type=submit],
+[type=tel],
+[type=text],
+[type=time],
+[type=url],
+[type=week],
+button,
+select,
+textarea {
+  min-height: 1.5em;
+}
+audio, canvas, iframe, img, svg, video {
+  vertical-align: middle;
 }

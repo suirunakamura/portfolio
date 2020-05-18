@@ -176,65 +176,90 @@
                 %span.header-navi-text-en RECRUIT
                 %span.header-navi-text-jp 採用情報
                 %span.header-navi-mark.header-navi-mark-arrow
+            %li.header-navi-item.js-header-navi-item{ data: "company"}
+              %a.header-navi-text.header-navi-text-mobile{ href: "#" }
+                %span.header-navi-text-en COMPANY
+                %span.header-navi-text-jp 会社案内
+                %span.header-navi-mark
               .megamenu.js-megamenu
                 .megamenu-list.js-megamenu-list{ data: "service" }
                   .megamenu-item.megamenu-item-mobile
                     %a{ href: "#" }
                       %p.megamenu-title
-                        事業一覧
+                        代表あいさつ
                         %i.megamenu-title-icon.icon-arrow-circle
                       %span.megamenu-mark
                   .megamenu-item
                     %a{ href: "#" }
                       %p.megamenu-title
-                        Web制作
+                        役員紹介
                         %i.megamenu-title-icon.icon-arrow-ciecle
                       %span.megamenu-mark
                   .megamenu-item
                     %a{ href: "#" }
                       %p.megamenu-title
-                        オフショア開発
+                        沿革
                         %i.megamenu-title-icon.icon-arrow-ciecle
                       %span.megamenu-mark
                   .megamenu-item
                     %a{ href: "#" }
                       %p.megamenu-title
-                        マーケティング支援
+                        拠点一覧
                         %i.megamenu-title-icon.icon-arrow-ciecle
                       %span.megamenu-mark
                   .megamenu-item
                     %a{ href: "#" }
                       %p.megamenu-title
-                        ゲストハウス
+                        メンバー
                         %i.megamenu-title-icon.icon-arrow-ciecle
                       %span.megamenu-mark
-                  .megamenu-item
-                    %a{ href: "#" }
-                      %p.megamenu-title
-                        コアーキング
-                        %i.megamenu-title-icon.icon-arrow-ciecle
-                      %span.megamenu-mark
-                  .megamenu-item
-                    %a{ href: "#" }
-                      %p.megamenu-title
-                        飲食
-                        %i.megamenu-title-icon.icon-arrow-ciecle
-                      %span.megamenu-mark
-                  .megamenu-item
-                    %a{ href: "#" }
-                      %p.megamenu-title
-                        教育
-                        %i.megamenu-title-icon.icon-arrow-ciecle
-                      %span.megamenu-mark
-                  .megamenu-item
-                    %a{ href: "#" }
-                      %p.megamenu-title
-                        地方創生
-                        %i.megamenu-title-icon.icon-arrow-ciecle
-                      %span.megamenu-mark
-                  .megamenu-item
-                    %a{ href: "#" }
-                      %p.megamenu-title
-                        アート
-                        %i.megamenu-title-icon.icon-arrow-ciecle
-                      %span.megamenu-mark
+            %li.header-navi-item.js-header-navi-item{ data: "contact"}
+              %a.header-navi-text.header-navi-text-mobile{ href: "#" }
+                %span.header-navi-text-en CONTACT
+                %span.header-navi-text-jp お問い合わせ
+                %span.header-navi-mark
+          .header-navi-contact
+            %a.button-small.button-fit.button{ href: "#" }
+              %span.button-text お問い合わせはこちら
+              %span.button-icon.icon-arrow
+          .submenu.js-submenu
+            .submenu-list
+              .subenu-item
+                %a{ href: "#" }
+                  %p.submenu-title
+                    プライバシーポリシー
+                    %i.submenu-title-icon.icon-arrow-circle
+                  %span.submenu-mark
+              .submenu-item
+                %a{ href: "#" }
+                  %p.submenu-title
+                    サイトマップ
+                    %i.submenu-title-icon.icon-arrow-circle
+                  %span.submenu-mark
+              .submenu-item
+                %a{ href: "#" }
+                  %p.submenu-title
+                    よくある質問
+                    %i.submenu-title-icon.icon-arrow-circle
+                  %span.submenu-mark
+              .submenu-item
+                %a{ href: "#" }
+                  %p.submenu-title
+                    メディア・広告掲載について
+                    %i.submenu-title-icon.icon-arrow-circle
+                  %span.submenu-mark
+        %form.header-search.js-header-search{ action: "/", method: "get", }
+          .header-search-box
+            %span.header-search-box-icon.icon-search__web-inspector-hide-shortcut__
+            %input.header-search-input.js-header-search-input{ type: "text", name: "s", placeholder: "記事を検索" }
+            %button.header-search-box-submit{ type: "submit" }
+              %span.icon-search
+          .header-search-button
+            .header-search-icon
+              %span.icon-search
+            .header-search-close.js-header-search-btn
+              %span.icon-close
+    .mutter.js-mutter{ id: "js-mutter" }
+      .mutter-media.js-mutter-media
+      %svg.mutter-svg{ width: "94", height: "94", id: "mutter-cicle-svg"}
+        %circle{ cx: "47", cy: "47", r: "45" }
