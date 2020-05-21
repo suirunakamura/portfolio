@@ -1,0 +1,543 @@
+.l-footer {
+  width: 100%;
+  min-width: 1300px;
+
+
+
+
+
+
+// l-footer-navi
+  .l-footer-navi {
+    position: relative;
+    // width: 100%;
+    margin: 132px 0 0;
+    background: #f5f5f5;
+    min-width: 1300px;
+  }
+  .pagetop {
+    position: relative;
+    // min-width: 1260px;
+    margin: 0 auto;
+    height: 0;
+    text-align: right;
+    z-index: 2;
+  }
+  .is-pagetop-show .pagetop-button {
+    -webkit-transform: translate3d(0,-82px,3px);
+    transform: translate3d(0,-82px,3px);
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+  }
+  .is-pagetop-show .pagetop-button {
+    -webkit-transform: translate3d(0,-82px,3px);
+    transform: translate3d(0,-82px,3px);
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+  }
+  .pagetop-button {
+    display: block;
+    position: fixed;
+    right: 20px;
+    bottom: -58px;
+    width: 56px;
+    height: 56px;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    line-height: 56px;
+    border-radius: 50%;
+    background: #181818;
+    z-index: 11;
+    -webkit-transform: translate3d(0,120px,3px);
+    transform: translate3d(0,120px,3px);
+    -webkit-transition: background .25s,color .25s,-webkit-transform .25s ease;
+    transition: transform .25s ease,background .25s,color .25s;
+    transition: transform .25s ease,background .25s,color .25s,-webkit-transform .25s ease;
+  }
+  .pagetop-icon {
+    display: inline-block;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+  .icon-arrow:before {
+    content: "";
+  }
+  .l-footer-navi-inner {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 1260px;
+    margin: 0 auto;
+    padding: 33px 30px 58px;
+    z-index: 1;
+  }
+  .l-footer-navi-service {
+    -webkit-flex-basis: 740px;
+    -ms-flex-preferred-size: 740px;
+    flex-basis: 740px;
+    margin: 0 80px 0 0;
+  }
+
+// ourservice
+  .ourservice {
+    display: block;
+  }
+  .ourservice-heading {
+    font-size: 18px;
+    color: #cecece;
+  }
+  .ourservice-list {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 7px 0 27px;
+  }
+  .ourservice-item {
+    display: block;
+    -webkit-flex-basis: 25%;
+    -ms-flex-preferred-size: 25%;
+    flex-basis: 25%;
+    padding: 9px 0;
+  }
+  .ourservice-inner {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: inherit;
+  }
+  .ourservice-media {
+    position: relative;
+    width: 72px;
+    max-height: 41px;
+    overflow: hidden;
+  }
+  .ourservice-image {
+    width: 100%;
+    height: auto;
+    -webkit-transition: -webkit-transform .25s ease;
+    transition: transform .25s ease;
+    transition: transform .25s ease,-webkit-transform .25s ease;
+  }
+  .ourservice-media:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: #181818;
+    opacity: 0;
+    -webkit-transition: opacity .25s ease;
+    transition: opacity .25s ease;
+  }
+  .ourservice-title {
+    margin: 0 0 0 8px;
+    font-size: 13px;
+  }
+  .ourservice-title, .sidepr-date {
+    font-weight: 400;
+    letter-spacing: .05em;
+  }
+  .ourservice-title {
+    line-height: 1.6;
+  }
+
+  // button
+  .button-fit {
+    display: block;
+    width: 100%;
+  }
+  .button {
+    position: relative;
+    display: inline-block;
+    padding: 15px 15px 11px;
+    color: inherit;
+    border: 1px solid #181818;
+    border-radius: 4px;
+    box-shadow: 0 4px 0 0 rgba(0,0,0,.11);
+    text-align: center;
+    background-color: #fff;
+    cursor: pointer;
+    -webkit-transition: background-color .25s ease,color .25s ease;
+    transition: background-color .25s ease,color .25s ease;
+  }
+  .button-text {
+    padding: 0 40px;
+    font-size: 16px;
+    letter-spacing: .14em;
+    line-height: 1.75;
+  }
+  .button-icon {
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    font-size: 12px;
+    -webkit-transform: translate(0,-50%);
+    transform: translate(0,-50%);
+  }
+  .button-icon:before {
+    display: inline-block;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+  .icon-arrow:before {
+    content: "";
+  }
+  .l-footer-navi-contact {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+  }
+
+  // messageform
+  .messageform {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .messageform-heading {
+    display: inline-block;
+    font-size: 20px;
+  }
+  .messageform-comment {
+    display: inline-block;
+    margin: 0 0 0 auto;
+    font-size: 12px;
+  }
+  .messageform-area {
+    min-width: 380px;
+    margin: 10px 0 0;
+  }
+  .messageform-area textarea {
+    // width: 100%;
+    min-width: 380px;
+    padding: 10px 26px;
+    border-width: 1px;
+    border-color: #ddd;
+    border-style: solid;
+    border-radius: 3px;
+    background-color: #fff;
+    height: 137px;
+  }
+  .messageform-text {
+    display: inline-block;
+    width: 260px;
+    margin: 2px 0 0;
+    font-size: 12px;
+  }
+  .messageform-text a {
+    color: inherit;
+    font-weight: 700;
+  }
+  // ここからメッセージを送信した際のテキストエリア部分の表示
+  .messageform-success {
+    display: none;
+    margin: 10px 0;
+  }
+  .messageform-success img {
+    width: 100%;
+    height: auto;
+  }
+  .messageform .button {
+    margin: 11px 0 0 auto;
+  }
+  // メッセージフォームの投稿ボタン
+  .button-little {
+      padding: 6px 21px;
+  }
+  .button-little .button-text {
+    font-size: 14px;
+    padding: 0;
+  }
+  .button-text {
+      padding: 0 40px;
+      font-size: 16px;
+      letter-spacing: .14em;
+      line-height: 1.75;
+  }
+
+  // footerのロゴ部分
+  .l-footer-navi-logo {
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    margin: 0 0 0 -405px;
+  }
+  .l-footer-navi-logo svg {
+    width: 810px;
+    height: 67px;
+  }
+  .l-footer-navi-logo path {
+    fill: #f5f5f5;
+  }
+
+
+
+
+
+
+
+// footerbanner
+
+// footerbannerの部分はは7つのタグを左端と右端つけるボタンをクリックした際に、
+// 回転するようにjsで回すように実装したい。imgタグに一つそれぞれ別のクラスを指定する
+// また、それぞれにdata-swiper-slide-index属性をつけ0~6までの番号化している
+// この7つのタグはfooterbanner-innerタグの中に収容されている。
+// 見本では、この7つのタグを3つ作っている
+// 難しいので、時間を使って実装しておく。
+
+  .footerbanner {
+    display: block;
+    background: #333;
+    min-width: 1300px;
+  }
+  .footerbanner-inner {
+    position: relative;
+    // max-width: 1260px;
+    margin: 0 auto;
+    padding: 36px 30px 33px;
+  }
+  .swiper-container {
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+  }
+  .footerbanner .swiper-wrapper {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .swiper-container-android .swiper-slide, .swiper-wrapper {
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+  }
+  .swiper-wrapper {
+    z-index: 1;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    box-sizing: content-box;
+  }
+  .footerbanner-swiper-slide {
+    width: 172px;
+  }
+  .swiper-slide {
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+  }
+  .footerbanner-item {
+    display: block;
+    text-align: center;
+  }
+  .footerbanner-item-inner {
+    display: inline-block;
+    color: inherit;
+  }
+  .footerbanner-image {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+  }
+// footerbannerの両橋のボタン
+  .footerbanner-button-next,
+  .footerbanner-button-prev {
+    position: absolute;
+    top: 50%;
+    font-size: 22px;
+    -webkit-transform: translate(0,-50%);
+    transform: translate(0,-50%);
+    cursor: pointer;
+  }
+// footerbanner左端のボタン
+  .footerbanner-button-prev {
+    left: 0;
+  }
+  .footerbanner-icon {
+    display: block;
+    color: #5c5c5c;
+  }
+  .icon-arrow-circle-border:before {
+    content: "";
+  }
+// footerbanner右端のボタン
+  .footerbanner-button-next {
+    right: 0;
+  }
+
+
+
+
+
+
+//        l-footer-bottom
+  .l-footer-bottom {
+    display: block;
+    background: #181818;
+  }
+  .l-footer-bottom-inner {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 1260px;
+    margin: 0 auto;
+    padding: 49px 30px 60px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+//  フッターのメニュー
+  .l-footer-bottom-sitemap {
+    display: inline-block;
+    width: 100%;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+  }
+  .footersitemap {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .footersitemap-block {
+    display: block;
+  }
+  .footersitemap-block-blog {
+    -webkit-flex-basis: 379px;
+    -ms-flex-preferred-size: 379px;
+    flex-basis: 379px;
+  }
+  .footersitemap-heading {
+    margin: 0 0 7px;
+    font-size: 18px;
+    color: #464646;
+  }
+  .footersitemap-list-col2 {
+    width: 49%;
+    font-size: 0;
+    letter-spacing: 0;
+    vertical-align: top;
+  }
+  .footersitemap-list-children {
+    border-left: 1px solid #303030;
+    padding: 0 0 0 18px;
+  }
+  .footersitemap-list {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    font-size: 12px;
+    color: #fff;
+    list-style: none;
+  }
+  .footersitemap-list-col2 .footersitemap-item {
+    font-size: 12px;
+    line-height: 2.2em;
+    letter-spacing: .07rem;
+  }
+  .footersitemap-item {
+    width: 100%;
+    line-height: 2.2;
+  }
+  .footersitemap-list a {
+    display: block;
+    color: inherit;
+  }
+
+
+  .footersitemap-block-company,
+  .footersitemap-block-recruit {
+    -webkit-flex-basis: 190px;
+    -ms-flex-preferred-size: 190px;
+    flex-basis: 190px;
+  }
+  .footersitemap-list-company {
+    height: calc(100% - 27px);
+  }
+
+
+  .footersitemap-list-other {
+    margin-top: 25px;
+  }
+
+
+
+// 会社情報 l-footer-bottom-contact
+  .l-footer-button-contact {
+    width: 100%;
+    -webkit-flex-basis: 380px;
+    -ms-flex-preferred-size: 380px;
+    flex-basis: 380px;
+    margin: 0 0 0 auto;
+  }
+  .footercontact {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .footercontact-logo {
+    -webkit-flex-basis: 146px;
+    -ms-flex-preferred-size: 146px;
+    flex-basis: 146px;
+    margin: 9px 0 0;
+  }
+  .logo {
+    display: block;
+  }
+  .logo-footer svg {
+    width: 100px;
+    height: 30px;
+  }
+  .footercontact-social-item path,
+  .logo path {
+    fill: #fff;
+  }
+  .footercontact-text {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    margin: 3px 0 0;
+    font-size: 12px;
+    color: #fff;
+  }
+  .hide-mobile {
+    display: block;
+  }
+
+}
