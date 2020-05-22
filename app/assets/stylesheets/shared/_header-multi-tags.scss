@@ -69,12 +69,13 @@ a:-webkit-any-link {
   color: -webkit-link;
   cursor: pointer;
 }
-.__web-inspector-hide-shortcut__,
-.__web-inspector-hide-shortcut__ *,
-.__web-inspector-hidebefore-shortcut__::before,
-.__web-inspector-hideafter-shortcut__::after {
-  visibility: hidden !important;
-}
+// .__web-inspector-hide-shortcut__,
+// .__web-inspector-hide-shortcut__ *,
+// .__web-inspector-hidebefore-shortcut__::before,
+// .__web-inspector-hideafter-shortcut__::after {
+//   visibility: hidden !important;
+// }
+// カテゴリー欄の背景色が出なくなる
 [type=button],
 [type=date],
 [type=datetime-local],
