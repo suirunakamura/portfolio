@@ -1,0 +1,50 @@
+// .__web-inspector-hide-shortcut__,
+// .__web-inspector-hide-shortcut__ *,
+// .__web-inspector-hidebefore-shortcut__::before,
+// .__web-inspector-hideafter-shortcut__::after {
+//   visibility: hidden !important;
+// }
+// ヘッダーのしたのカテゴリーバーの色が出なくなる
+
+.blogcategory,
+.pagenation-select-list {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+.breadcrumb-item-inner,
+.calltoaction-button-sub,
+.company-table-button,
+.contact-banner-link,
+.contact-button-link,
+.entry-example-button,
+.largebanner-inner,
+.office-sns-list a,
+.office-title a,
+.pagenation-next>a,
+.pagenation-prev>a,
+.pagenation-select,
+.recruit-banner-wrap,
+.recruit-card-position-item a,
+.recruit-detail-banner-works-wrap,
+.recruit-detail-recruit-link,
+.related-tag,
+.search-author-link,
+.search-author-name a,
+.section-faq-btn,
+.sidepr-header-inner,
+.single-author-link,
+.single-author-name a,
+.sitemap-link,
+.staff-card-btn,
+.staff-card-sns-list a {
+  opacity: 1;
+  -webkit-transition: opacity .25s ease;
+  transition: opacity .25s ease;
+}
+
+.l-service,
+.l-service-lig-logo {
+  position: relative;
+  width: 100%;
+}

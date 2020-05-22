@@ -13,3 +13,11 @@
  *= require_tree .
  *= require_self
  */
+
+ @import "./_reset";
+ @import "shared/header";
+ @import "shared/header-multi-tags";
+ @import "shared/footer.scss";
+ @import "shared/footer-multi-tags";
+ @import "top/top";
+ @import "top/top-multi-tags";
