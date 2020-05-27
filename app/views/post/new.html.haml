@@ -1,0 +1,47 @@
+= render partial: 'shared/header'
+%body
+  .container
+    .row
+      .col-md-8.col-md-offset-2
+        %h2 ブログ記事投稿・編集
+        %form(method="POST")
+          .form-date.form-group
+            .blog-name
+              %label.blog-label 日付
+            %input.input-time(name="post_date" size="20" value="" placeholder="日付を入力して下さい。" style="font-weight: bold;" )
+          .form-title.form-group
+            .blog-name
+              %label.blog-label タイトル
+            %input.input-title(name="title" value="" placeholder="タイトルを入力して下さい。" style="font-weight: bold;" )
+          .form-letter.form-group
+            .blog-name
+              %label.blog-label 本文
+            %textarea.input-control(rows="15" name="body" placeholder="本文を入力してください。" style="font-weight: bold;")
+          .form-input
+            %input.btn.btn-primary.btn-sm(type="submit" value="投稿する" )
+-# %body.no-scroll.ng-scope(id="body" ng-Style="rootView.style" ng-controller= "MdrdManageRootViewCtrl as rootView")
+-#   .ng-score(ui-view= "root" )
+-#     .page.blog-post-editor.ng-scope
+-#       .page__inner
+-#         .ng-scope( ng-controller="BlogPostCtrl" ng-init="init(); showSaveOption=false;" mdrd-interval="saveDraft()" mdrd-interval-time="10 * 1000" block-movable-group="post" ng-class="{'post--dragging': dragging}" block-movable-group-scroll-container-selector="#js-blog-post__main-scroll-container" block-movable-group-scroll-body-selector=".post-view__contents" class="ng-scope")
+-#           .blocker.blocker--opacity.post-view__outher.post-view__outher-visible
+-#             .post-view
+-#               .post-view-header
+-#                 .post-view__header-inner
+-#                   <!--名前のinputの部分-->
+-#                   .post-viwew__area.post-view__preview-switch.ng-hide
+-#                   .post-view__info
+-#                     .tmb.tmb--size-50
+-#                       .tmb__img.ng-isolate-scope( src-url="https://static.amebaowndme.com/madrid-static/placeholder/site-icons/l.png" w="50" h="50" crop="true" mdrd-img-icon="mdrd-img-icon" mdrd-img-fit="mdrd-img-fit" mdrd-img-align-center="mdrd-img-align-center")
+-#                         %img(ng-style="style" ng-class="{'placeholder--loaded': loaded, 'placeholder--error': error}" alt class="placeholder placeholder--loaded" src="https://static.amebaowndme.com/madrid-static/placeholder/site-icons/l.png?option=crop&width=80&height=80" style="width: 100%; height: auto;")
+-#                       %h1.post-view__target-name.ng-binding No Name
+-#                   .post-view__action
+-#                     %p.post-view__status.ng-hide(ng-show="post.misc.autoSaveDatetime")
+-#                       %span.icon.icon--checkmark2
+-#                       %span.txt.txt-note.txt--xxs.ng-binding 自動保存済
+-#                       %span.txt.txt-note.txt--xxs.ng-binding 保存しています
+-#                     .post-view__preview
+-#                       %button.btn.post-view__preview-button.btn--preview(type="button" ng-click="preview(!isPreview)" ng-disabled="!postData.valid || previewLoading" ng-class="{'btn--preview': !isPreview}" disabled="disabled")
+-#                         %span.ng-binding(ng-hide="isPreview") プレビュー
+-#                         %span.ng-binding.ng-hide(ng-hide="isPreview") プレビューを終了
+-#               .post-view-body

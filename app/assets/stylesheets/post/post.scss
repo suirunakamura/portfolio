@@ -1,0 +1,306 @@
+// // Place all the styles related to the post controller here.
+// // They will automatically be included in application.css.
+// // You can use Sass (SCSS) here: https://sass-lang.com/
+
+// .form-group input[name="post_date"] {
+//   width: 200px;
+//   height: 30px;
+// }
+.container {
+  position: relative;
+  top: 85px;
+}
+.row {
+  margin: auto;
+}
+.input-time {
+  height : 20px;
+  width: 800px;
+}
+.input-control {
+  width: 800px;
+  height: 100%;
+}
+.input-title {
+  height: 30px;
+  width: 800px;
+}
+.form-title,
+.form-letter,
+.form-date {
+  margin: 26px;
+  width: 100%;
+  height: 100%;
+}
+.btn-primary {
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius : 5%;          /* 角丸       */
+  text-align    : center;      /* 文字位置   */
+  cursor        : pointer;     /* カーソル   */
+  padding       : 12px 12px;   /* 余白       */
+  background    : #94dfc9;     /* 背景色     */
+  color         : #ffffff;     /* 文字色     */
+  line-height   : 1em;         /* 1行の高さ  */
+  transition    : .3s;         /* なめらか変化 */
+  box-shadow    : 6px 6px 3px #666666;  /* 影の設定 */
+  border        : 2px solid #94dfc9;    /* 枠の指定 */
+}
+.btn-primary:hover {
+  box-shadow    : none;        /* カーソル時の影消去 */
+  color         :black;     /* 背景色     */
+  background    : #94dfc9;     /* 背景色     */
+  border        : 2px solid #94dfc9;    /* 枠の指定 */
+}
+.form-input {
+  height: 100%;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.blog-label {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.blog-name {
+  height: 100%;
+  width: 100%;
+}
+.blog-label {
+  font: bold large/150% "ＭＳ 明朝";
+}
+::placeholder {
+  // color: #cdd;
+  font-weight: bold;
+}
+
+
+// .page__inner {
+//   position: relative;
+//   width: 100%;
+//   height: 100%;
+//   margin-top: 81px;
+// }
+// .page {
+//   position: absolute;
+//   // top: 81px;
+//   bottom: 0;
+//   overflow: hidden;
+//   min-width: 1141px;
+//   height: 100%;
+// }
+// .post-view__outer--visible {
+//   top: 0;
+//   opacity: 1;
+//   -ms-filter: none;
+//   -webkit-filter: none;
+//   filter: none;
+// }
+// .post-view__outer {
+//   -webkit-transition: opacity 60ms ease-in 0s;
+//   transition: opacity 60ms ease-in 0s;
+//   top: 200%;
+//   opacity: 0;
+//   filter: alpha(opacity=0);
+// }
+// .blocker--opacity {
+//     background: #fff;
+// }
+// .blocker {
+//   position: absolute;
+//   // top: 81px;
+//   top: 0px;
+//   right: 0;
+//   bottom: 0;
+//   left: 0;
+//   background: rgba(238,238,238,.5);
+//   z-index: 100;
+// }
+// .post-view__outer--visible .post-view {
+//   opacity: 1;
+//   -ms-filter: none;
+//   -webkit-filter: none;
+//   filter: none;
+// }
+// .post-view {
+//   top: 0;
+//   right: 0;
+//   bottom: 0;
+//   background: #fff;
+//   height: 100%;
+//   z-index: 1000;
+//   -webkit-transition: opacity .1s ease-in 20ms;
+//   transition: opacity .1s ease-in 20ms;
+//   opacity: 0;
+//   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+//   filter: alpha(opacity=0);
+// }
+// .post-view__header {
+//   top: 0;
+//   background: #fff;
+//   border-bottom: solid 1px #eee;
+//   box-sizing: border-box;
+//   width: 100%;
+//   z-index: 10;
+// }
+// .post-view__header-inner {
+//   -webkit-box-align: center;
+//   -webkit-align-items: center;
+//   -moz-box-align: center;
+//   -ms-flex-align: center;
+//   align-items: center;
+//   box-sizing: border-box;
+//   display: flex;
+//   height: 73px;
+//   -webkit-box-pack: justify;
+//   -webkit-justify-content: space-between;
+//   -moz-box-pack: justify;
+//   -ms-flex-pack: justify;
+//   justify-content: space-between;
+//   padding: 11px 20px;
+// }
+// .post-view__preview-switch {
+//   padding-left: 20px;
+// }
+// .post-view__area {
+//   -webkit-box-align: center;
+//   -webkit-align-items: center;
+//   -moz-box-align: center;
+//   -ms-flex-align: center;
+//   align-items: center;
+//   box-sizing: border-box;
+//   display: flex;
+//   width: 50%;
+// }
+// // 記事投稿 名前のviewの部分 post-view-info
+// .post-view__info {
+//   -webkit-box-align: center;
+//   -webkit-align-items: center;
+//   -moz-box-align: center;
+//   -ms-flex-align: center;
+//   align-items: center;
+//   display: flex;
+//   -webkit-box-flex: 1;
+//   -webkit-flex: 1;
+//   -moz-box-flex: 1;
+//   -ms-flex: 1;
+//   flex: 1;
+//   min-width: 1px;
+// }
+// .tmb--size-50 {
+//   min-width: 50px;
+//   min-height: 50px;
+//   width: 50px;
+//   height: 50px;
+// }
+// .tmb {
+//   box-sizing: border-box;
+//   border-radius: 4px;
+//   display: inline-block;
+//   overflow: hidden;
+//   text-align: center;
+//   width: 70px;
+//   height: 70px;
+// }
+// .tmb__img {
+//   bottom: 0;
+//   right: 0;
+//   border-radius: 4px;
+//   margin: auto;
+// }
+// .placeholder {
+//   opacity: 1;
+//   -ms-filter: none;
+//   -webkit-filter: none;
+//   filter: none;
+//   -webkit-transition: opacity .3s .2s;
+//   transition: opacity .3s .2s;
+// }
+// .post-view__target-name {
+//   color: #999;
+//   display: inline-block;
+//   font-size: 16px;
+//   font-weight: 400;
+//   margin: 0;
+//   padding: 0 0 0 20px;
+//   white-space: nowrap;
+//   overflow: hidden;
+//   text-overflow: ellipsis;
+// }
+
+
+// // 公開ボタン
+// .view__action {
+//   -webkit-box-align: center;
+//   -webkit-align-items: center;
+//   -moz-box-align: center;
+//   -ms-flex-align: center;
+//   align-items: center;
+//   display: flex;
+// }
+// .post-view__status {
+//   -webkit-box-align: center;
+//   -webkit-align-items: center;
+//   -moz-box-align: center;
+//   -ms-flex-align: center;
+//   align-items: center;
+//   display: flex;
+//   padding-left: 10px;
+//   margin-bottom: 0;
+//   margin-right: 20px;
+// }
+// .post-view__status>.icon {
+//   color: #3dc49d;
+//   font-size: 10px;
+//   margin-right: 5px;
+// }
+// .icon {
+//   vertical-align: -.1em;
+// }
+// .icon {
+//   font-family: owndicons;
+//   display: inline-block;
+//   line-height: 1;
+//   font-weight: 400;
+//   font-style: normal;
+// }
+// .txt--note {
+//   color: #999;
+// }
+// .txt--xxs {
+//   font-size: 10px;
+// }
+// .txt {
+//   color: inherit;
+//   font-size: inherit;
+//   line-height: 1.4;
+// }
+// .txt:last-child {
+//   margin-bottom: 0;
+// }
+// .post-view__preview {
+//   -webkit-box-align: center;
+//   -webkit-align-items: center;
+//   -moz-box-align: center;
+//   -ms-flex-align: center;
+//   align-items: center;
+//   box-sizing: border-box;
+//   display: flex;
+//   margin: 0 0 0 -10px;
+// }
+// .post-view__preview-button {
+//   padding: 0 10px;
+// }
+// .post-view__preview-button {
+//   padding: 0 10px;
+// }
+// .btn--preview:before, .editor .editor-btn--preview:before {
+//   display: inline-block;
+//   font-size: 1.2em;
+//   margin-right: 5px;
+//   vertical-align: -2px;
+// }
