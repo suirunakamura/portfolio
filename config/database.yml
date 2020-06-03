@@ -35,7 +35,7 @@ production:
   database: portfolio_production
   pool: 5
   username:  root
-  password: suiruksuiru1207
+  password: suirusuiru1207
   # socket: /var/run/mysqld/mysqld.sock
 
 
