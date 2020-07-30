@@ -11,11 +11,10 @@
 development:
   adapter: mysql2
   encoding: utf8
-  database: portfolio_development
+  database: portfolio1_development
   pool: 5
   username: root
-  password: suirusuiru1207
-  # socket: /var/run/mysqld/mysqld.sock
+  # socket: /tmp/mysql.sock
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -23,20 +22,18 @@ development:
 test:
   adapter: mysql2
   encoding: utf8
-  database: portfolio_test
+  database: portfolio1_test
   pool: 5
   username: root
-  password: suirusuiru1207
-  # socket: /var/run/mysqld/mysqld.sock
+  # socket: /tmp/mysql.sock
 
 production:
   adapter: mysql2
   encoding: utf8
-  database: portfolio_production
+  database: portfolio1_production
   pool: 5
   username:  root
-  password: suirusuiru1207
-  # socket: /var/run/mysqld/mysqld.sock
+  # socket: /tmp/mysql.sock
 
 
 # default: &default
