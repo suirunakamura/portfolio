@@ -1,0 +1,21 @@
+= render partial: 'shared/header'
+%body
+  .container
+    .row
+      .col-md-8.col-md-offset-2
+        %h2 ブログ記事投稿・編集
+        = form_with model: @article, local: true, do |f|
+          .form-date.form-group
+            .blog-name
+              %label.blog-label 日付
+              = f.date_field :dating, class: "input-time", name: "post_date", size: "20", placeholder: "日付を入力してください", style: "font-weight: bold;"
+          .form-title.form-group
+            .blog-name
+              %label.blog-label タイトル
+              = f.text_field :title, class: "input-title", name: "title", placeholder:"タイトルを入力してください。", style: "font-weight: bold;"
+          .form-letter.form-group
+            .blog-name
+              %label.blog-label 本文
+              = f.text_area :text, class: "input-control", rows: "15", name: "body", placeholder: "本文を入力してください。", style: "font-weight: bold;"
+          .form-input
+            = f.submit class: "btn btn-primary btn-sm", value: "投稿する"
